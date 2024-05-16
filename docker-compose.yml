@@ -4,7 +4,7 @@ services:
   fallout:
     build: ./
     ports:
-      - "80:8802"
+      - "79:8802"
     volumes:
       - .:/app
       - /app/node_modules:cached
